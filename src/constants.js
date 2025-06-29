@@ -13,7 +13,7 @@ export const dialogueData = {
     
     resume: `Here’s my workspace and  right on that desk  is my resume! <a href="https://drive.google.com/file/d/19A5jw9VTOFsIgFr5KS38Rmlq7u6LaOQZ/view?usp=drive_link" target="_blank">Check it out?</a> If you’re hiring and looking for someone who’s driven, creative and all about growth, shoot me an email at praneshchandranwork@gmail.com. I’m ready to contribute and grow with your team!`,
     
-    projects: `A little behind-the-scenes: this interactive portfolio is powered by Kaboom.js , a super cool game development library in JavaScript. The UI magic comes from HTML and CSS. I wanted to build something that’s *me* , creative, fun and code-powered.`,
+    projects: `A little behind-the-scenes: this interactive portfolio is powered by Kaboom.js , a super cool game development library in JavaScript. The UI magic comes from HTML and CSS. `,
     
     library: `Here’s my mini tech library! Let’s be real , I’ve probably read one of these cover to cover 😅. But hey, collecting dev books is a personality trait, right? The hunger to learn is always there!`,
     
