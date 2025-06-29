@@ -67,6 +67,33 @@
         user-select: none;
       }
 
+      @media (max-width: 600px) {
+        body {
+          font-size: 1.2rem;
+        }
+        #textbox {
+          left: 2vw;
+          right: 2vw;
+          bottom: 1vh;
+          padding: 0.5rem;
+          min-height: 6vh;
+        }
+        .note {
+          left: 2vw;
+          top: 1vh;
+          font-size: 1rem;
+        }
+      }
+
+      html, body, #app, canvas {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+
     </style>
     <div id="app">
       <div id="ui">
