@@ -1,7 +1,7 @@
 export const scaleFactor = 4;
 
 export const dialogueData = {
-    pc: `Welcome to my PC setup! I’m a passionate Full-Stack Developer specializing in the MERN stack, with hands-on experience building real-world projects. I also enjoy working with Java and Python. Curious about my work? Check out my <a href="https://github.com/pranesh69000" target="_blank">Github</a>!. Connect with me on <a href="https://leetcode.com/u/Pranesh_R21/" target="_blank">Leetcode</a> as well!`,
+    pc: `Welcome to my PC setup! I’m a passionate Full-Stack Developer specializing in the MERN stack, with hands-on experience building real-world projects. I also enjoy working with Java and Python. Curious about my work? Check out my <a href="https://github.com/pranesh69000" target="_blank">Github</a>!. Check out my <a href="https://leetcode.com/u/Pranesh_R21/" target="_blank">Leetcode</a> as well!`,
 
     "cs-degree": `I'm Currently pursuing my B.Tech in Information Technology at Sri Ramakrishna Engineering College. It’s been the perfect blend of theory and hands-on experience, giving me a solid launchpad into the world of tech.`,
     
