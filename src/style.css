@@ -105,6 +105,7 @@ button:focus-visible {
     font-size: 1.2rem;
   }
   #textbox {
+    position: relative;
     left: 2vw;
     right: 2vw;
     bottom: 1vh;
@@ -117,16 +118,25 @@ button:focus-visible {
     overflow-y: auto;
   }
   .btn-container {
-    margin-top: 1rem;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+    margin-top: 0;
+    width: auto;
+    display: block;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 2;
   }
   .ui-close-btn {
     padding: 0.5rem 1rem;
-    font-size: 1rem;
-    width: 100%;
+    font-size: 1.2rem;
+    width: auto;
     box-sizing: border-box;
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    opacity: 0.95;
   }
   .ui-text {
     font-size: 1rem;

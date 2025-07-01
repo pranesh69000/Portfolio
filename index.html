@@ -69,20 +69,46 @@
       }
 
       @media (max-width: 600px) {
-        body {
+        body{
           font-size: 1.2rem;
         }
-        #textbox {
+        #textbox{
+          position: relative;
           left: 2vw;
           right: 2vw;
           bottom: 1vh;
-          padding: 0.5rem;
           min-height: 6vh;
-        }
-        .note {
-          left: 2vw;
-          top: 1vh;
+          padding: 0.5rem;
           font-size: 1rem;
+          flex-direction: column;
+          align-items: stretch;
+          max-height: 40vh;
+          overflow-y: auto;
+        }
+        .btn-container{
+          margin-top: 0;
+          width: auto;
+          display: block;
+          position: absolute;
+          top: 0.5rem;
+          right: 0.5rem;
+          z-index: 2;
+        }
+        .ui-close-btn{
+          padding: 0.5rem 1rem;
+          font-size: 1.2rem;
+          width: auto;
+          box-sizing: border-box;
+          background: #222;
+          color: #fff;
+          border: none;
+          border-radius: 50px;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+          opacity: 0.95;
+        }
+        .ui-text{
+          font-size: 1rem;
+          word-break: break-word;
         }
       }
 
