@@ -27,49 +27,89 @@
 
       #textbox {
         position: absolute;
-        left: 10%;
-        right: 10%;
+        left: 5vw;
+        right: 5vw;
         bottom: 2vh;
-        min-height: 10vh;
+        min-height: 8vh;
+        max-height: 40vh;
         background: white;
-        border-radius: 3px;
-        outline-style: solid;
+        border-radius: 4px;
+        outline: solid black;
         padding: 1rem;
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+        flex-direction: row;
         align-items: flex-start;
         word-spacing: 0.2rem;
         filter: drop-shadow(0 0 0.75rem rgb(112, 112, 112));
-        /* overflow: auto; */
+        box-sizing: border-box;
+        overflow-y: auto;
       }
 
       .ui-text {
         margin: 0;
         user-select: none;
+        font-size: 1.1rem;
+        word-break: break-word;
+        flex: 1 1 auto;
+        overflow-y: auto;
+        max-height: 22vh;
+      }
+
+      .btn-container {
+        flex-shrink: 0;
+        margin-left: 1rem;
+        display: flex;
+        align-items: flex-start;
       }
 
       .ui-close-btn {
         font-family: monogram, monospace;
         border-style: none;
         border-radius: 3px;
-        padding: 1rem;
-        font-size: inherit;
-      }
-
-      .btn-container {
-        align-self: flex-end;
-        margin-top: 1rem;
+        padding: 0.7rem 1.2rem;
+        font-size: 1.1rem;
+        background: #222;
+        color: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        cursor: pointer;
       }
 
       .note {
         position: absolute;
-        left: 5%;
+        left: 5vw;
         top: 1vh;
         display: flex;
         flex-direction: column;
         color: rgb(238, 238, 238);
+        font-size: 1.1rem;
+      }
+
+      @media (max-width: 600px) {
+        #textbox {
+          left: 2vw;
+          right: 2vw;
+          bottom: 1vh;
+          min-height: 6vh;
+          max-height: 50vh;
+          padding: 0.7rem;
+          font-size: 1rem;
+        }
+        .ui-text {
+          font-size: 1rem;
+          max-height: 18vh;
+        }
+        .btn-container {
+          margin-left: 0.5rem;
+        }
+        .ui-close-btn {
+          padding: 0.5rem 1rem;
+          font-size: 1rem;
+        }
+        .note {
+          left: 2vw;
+          top: 1vh;
+          font-size: 0.95rem;
+        }
       }
     </style>
     <div id="app">
