@@ -11,7 +11,7 @@ export const dialogueData = {
     
     bed: `My creative recharge zone 😅. Sometimes I dream big, sometimes I spiral but hey, that’s the creative brain for you. Eventually, I knock out and recharge for another day of building and learning.`,
     
-    resume: `Here’s my workspace and  right on that desk  is my resume! <a href="https://drive.google.com/file/d/19A5jw9VTOFsIgFr5KS38Rmlq7u6LaOQZ/view?usp=drive_link" target="_blank">Check it out?</a> If you’re hiring and looking for someone who’s driven, creative and all about growth, shoot me an email at praneshchandranwork@gmail.com. I’m ready to contribute and grow with your team!`,
+    resume: `Here’s my workspace and  right on that desk  is my resume! <a href="https://drive.google.com/file/d/1f_Zu5Zr6EUQP0K25hNmsjZG9yYvyPodc/view?usp=drive_link" target="_blank">Check it out?</a> If you’re hiring and looking for someone who’s driven, creative and all about growth, shoot me an email at praneshchandranwork@gmail.com. I’m ready to contribute and grow with your team!`,
     
     projects: `A little behind-the-scenes: this interactive portfolio is powered by Kaboom.js , a super cool game development library in JavaScript. The UI magic comes from HTML and CSS. `,
     
